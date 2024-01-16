@@ -1,0 +1,30 @@
+@media (max-width:1128px){
+    .hero-wrap::before{height: 500px;}
+}
+@media (max-width:991px){
+    .social{display: none;}
+    .navbar-nav .nav-item .nav-link{padding-left: 5px;}
+    .hero-wrap::before{height: 400px;}
+    .navbar-nav{
+        background-color: var(--white);
+    }
+    .about .btn{
+        margin-bottom: 20px;
+    }
+    .about .aboutimg {
+        padding-right: 0;
+        text-align: center;
+    }
+    .contact .right-img {margin-right: 0;margin-left: 0;}
+}
+@media (max-width:768px){
+    .export .exportwrap .export-img{
+        height: 270px;
+        width: 220px;
+}
+.hero-wrap::before{height: 300px;}
+.bootom-_right .bg-img{
+    width: 90px;
+
+}
+}
